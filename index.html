@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js">
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Passion+One|Righteous|Roboto+Slab:300,400"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    </div>
+    <script>
+        AOS.init();
+    </script>
+
+    <header>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top base-brown">
+
+            <div class="container">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">
+                    <img src="logo_base.png" alt="Geldy Bakery" class="img-fluid logo-small">
+                </a>
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color: white" href="#carousel-home">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white" href="#tienda">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: white" href="#">Pricing</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <!-- Links -->
+
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light btn-tw">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light btn-p">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light btn-fb">
+                                <i class="fab fa-facebook-f"> </i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light btn-ig">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light btn-dribbble">
+                                <i class="fab fa-dribbble"> </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Collapsible content -->
+            </div>
+
+        </nav>
+        <!--/.Navbar-->
+
+        <!--Carousel Wrapper-->
+        <div id="carousel-home" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-1" data-slide-to="1"></li>
+                <li data-target="#carousel-example-1" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <!--Mask-->
+                    <div class="view">
+                        <div class="full-bg-img flex-center mask white-text rgba-black-slight">
+                            <ul class="animated fadeInUp col-md-12 list-unstyled list-inline">
+                                <div class="container">
+                                    <li>
+                                        <div class="d-flex justify-content-center"><img src="logo_base.png" alt=""
+                                                class="logo-bg"></div>
+                                        <h1 class="font-weight-bold text-uppercase font-Passion text-shadow display-4">
+                                            Geldy's
+                                            Bakery</h1>
+                                    </li>
+                                    <li>
+                                        <p class="font-weight-bold text-uppercase py-4 text-shadow font-Passion h2">
+                                            Innovadores.
+                                            Creativos.
+                                            Amantes del dulce.</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a target="_blank" href="#tienda"
+                                            class="btn btn-unique btn-lg btn-rounded mr-0">Ver nuestros productos</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.Mask-->
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide -->
+                <div class="carousel-item">
+                    <!--Mask-->
+                    <div class="view">
+                        <div class="full-bg-img flex-center white-text">
+                            <ul class="animated fadeInUp col-md-12 list-unstyled">
+                                <div class="container">
+                                    <li>
+                                        <div class="d-flex justify-content-center"><img src="logo_base.png" alt=""
+                                                class="logo-bg"></div>
+                                        <h1 class="font-weight-bold text-uppercase font-Passion text-shadow">Geldy's
+                                            Bakery</h1>
+                                    </li>
+                                    <li>
+                                        <p class="font-weight-bold text-uppercase py-4 text-shadow font-Passion h2">
+                                            Innovadores.
+                                            Creativos.
+                                            Amantes del dulce.</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a target="_blank" href="#tienda"
+                                            class="btn btn-unique btn-lg btn-rounded mr-0">Ver nuestros productos</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.Mask-->
+                </div>
+                <!--/.Second slide -->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <!--Mask-->
+                    <div class="view">
+                        <div class="full-bg-img flex-center mask white-text">
+                            <ul class="animated fadeInUp col-md-12 list-unstyled">
+                                <div class="container">
+                                    <li>
+                                        <div class="d-flex justify-content-center"><img src="logo_base.png" alt=""
+                                                class="logo-bg"></div>
+                                        <h1 class="font-weight-bold text-uppercase font-Passion text-shadow">Geldy's
+                                            Bakery</h1>
+                                    </li>
+                                    <li>
+                                        <p class="font-weight-bold text-uppercase py-4 text-shadow font-Passion h2">
+                                            Innovadores.
+                                            Creativos.
+                                            Amantes del dulce.</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a target="_blank" href="#tienda"
+                                            class="btn btn-unique btn-lg btn-rounded mr-0">Ver nuestros productos</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/.Mask-->
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    </header>
+
+    <main>
+        <main class="mt-5">
+            <div class="container">
+                <!-- Tienda -->
+
+
+                <section id="Modals">
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCheesecakeT" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="traditional_cheesecake.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Cheesecake tradicional con base de galletas crocantes. Para amantes de los
+                                        clásicos.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+
+                    <div class="modal fade" id="modalCheesecakeJ" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="contain d-flex justify-content-center">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="japanese_cheesecake.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Cheesecake al estilo japonés. Famoso por su esponjosidad.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+
+                    <div class="modal fade" id="modalTartaChocG" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="contain d-flex justify-content-center">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="gluten_free_torta_chocolate.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Torta de chocolate dietética. Con un sabor menos dulce, pero apta para aquellos
+                                        que estén en dieta o quieran optar por una opción más saludable.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalMacaronsG" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="gluten_free_macarons.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Típicos Macarons franceses, pero gluten free. Con un sabor menos dulce, pero
+                                        aptos para aquellos que estén en dieta o quieran optar por una opción más
+                                        saludable.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoBananasGa" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_banana_galletas.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Galletas con una mezcla de chocolate y banana.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalPistachoFresa" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="pistacho_fresa_roll.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Roll hecho con un masa de pistacho y rellenado con fresa.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalBrowniesG" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="brownies_gluten_free.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Brownies con un sabor más sútil que la receta tradicional, pero a cambio, sin
+                                        gluten. Aptos para aquellos que estén en dieta o quieran optar por una opción
+                                        más saludable.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChurrosChoco" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="churros_chocolate.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Churros con salsa de chocolate y café.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoBrownieIC" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_brownie_icecream.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Brownies tradicionales calientes con helado de vainilla, dulce de leche o
+                                        bizcocho.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoMarsh" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_marshmallow.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Chocolate caliente con derretido de Marshmallow's dentro.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoCuadruple" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="cuadruple_chocolate_cake.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Bizcocho de chocolate de cuatro pisos con relleno de chocolate tradicional,
+                                        amargo o blanco.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoMousse" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_mousse.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Clásico Mousse de Chocolate con rayadura de coco por encima.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoStrawberry" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_strawberries.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Fresas importadas con chocolate endurecido.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalChocoMilk" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_milk.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Clásico chocolate con leche</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCocoCookies" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="coco_cookies.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Clásicas galletas de coco.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalBizChocDDL" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="chocolate_dulce_leche.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Bizcocho de chocolate de tres pisos con relleno de dulce de leche y suspiro
+                                        clásico flameado.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalSnowbalCookies" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="snowball_cookies.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Polvorones de almendra con azúcar en polvo</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn btn red white-text"
+                                        data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalCakePops" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+
+                        <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+
+
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="modal-header">
+                                        <img class="img-fluid img-modal" src="cake_pops.jpg" alt="">
+                                        <h5 class="modal-title text-center" id="exampleModalLongTitle"></h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="modal-body text-center">
+                                    <p>Cake Pops sobre una pajilla o palillo cubiertos de chocolate y crocante.</p>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button type="button" class="btn brown white-text"><i
+                                            class="fas fa-shopping-cart base-white"></i>Añadir al Carrito</button>
+                                    <button type="button" class="btn red white-text" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+                <hr class="my-5">
+
+                <!-- Sobre Nosotros -->
+
+                <section id="Nosotros">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm column text-center">
+                                <i class="fas fa-users fa-4x"></i>
+                                <p class="d-flex align-bottom">
+                                    Somos una tienda virtual dedicada principalmente a la venta de dulces y a la
+                                    repostería en general, aunque nos desenvolvemos en otras áreas. La página web que
+                                    estás visualizando ahora mismo se encuentra en construcción, pero pronto estará
+                                    totalmente habilitada. ¡Gracias! :)
+                                </p>
+                            </div>
+                            <div class="col-sm">
+                                One of three columns
+                            </div>
+                            <div class="col-sm">
+                                One of three columns
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <hr class="my-5">
+
+                <section id="tienda">
+                    <!-- Heading -->
+                    <h2 class="display-4 font-passion d-flex justify-content-center font-Robot-Slab">Nuestra Tienda</h2>
+                    <hr class="black">
+
+                    <!-- Grid Row -->
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src="traditional_cheesecake.jpg" alt=""
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Cheesecake Tradicional</h2>
+                                    <a class="info" href="#" data-toggle="modal" data-target="#modalCheesecakeT">ver
+                                        más</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=japanese_cheesecake.jpg alt="Cheesecake Japonés Tradicional"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Cheesecake Japonés Tradicional</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalCheesecakeJ">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=gluten_free_torta_chocolate.jpg
+                                    alt="Torta de Chocolate Gluten Free" style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Torta de Chocolate Gluten Free</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalTartaChocG">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Grid Row -->
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=gluten_free_macarons.jpg alt="Macarons Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Macarons Gluten Free</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalMacaronsG">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_banana_galletas.jpg
+                                    alt="Cheesecake Japonés Tradicional" style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Galletas de Chocolate y Banana</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalChocoBananasGa">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=pistacho_fresa_roll.jpg alt="Torta de Chocolate Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Roll de Pistacho y Fresa</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalPistachoFresa">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Grid Row -->
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=brownies_gluten_free.jpg alt="Macarons Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Brownies Gluten Free</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalBrowniesG">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=churros_chocolate.jpg alt="Cheesecake Japonés Tradicional"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Churros de Chocolate y Café</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalChurrosChoco">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_brownie_icecream.jpg
+                                    alt="Torta de Chocolate Gluten Free" style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Brownies de Chocolate con Helado</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalChocoBrownieIC">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Grid Row -->
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_marshmallow.jpg alt="Macarons Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Chocolate con Marshmallow's</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalChocoMarsh">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=cuadruple_chocolate_cake.jpg
+                                    alt="Cheesecake Japonés Tradicional" style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Bizcocho de Cuádruple Chocolate</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalChocoCuadruple">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_mousse.jpg alt="Torta de Chocolate Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Mousse de Chocolate</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalChocoMousse">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_strawberries.jpg alt="Macarons Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Fresas con Chocolate</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalChocoStrawberry">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_milk.jpg alt="Cheesecake Japonés Tradicional"
+                                    style="width: 500px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Leche con Chocolate</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalChocoMilk">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=coco_cookies.jpg alt="Torta de Chocolate Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Galletas de Coco</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalCocoCookies">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row d-flex justify-content-center mb-4">
+
+                        <!-- Grid Column -->
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=chocolate_dulce_leche.jpg alt="Macarons Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2 style="font-size: 0.95rem">Bizcocho de Chocolate y Dulce de Leche</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalBizChocDDL">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid" src=snowball_cookies.jpg alt="Cheesecake Japonés Tradicional"
+                                    style="width: 500px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Polvorones / Snowball Cookies</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal"
+                                            data-target="#modalSnowbalCookies">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in-down" data-aos-duration="500">
+
+                            <!-- Card -->
+                            <div class="hovereffect">
+                                <img class="img-fluid img-modal" src=cake_pops.jpg alt="Torta de Chocolate Gluten Free"
+                                    style="width: 400px; height: 250px">
+                                <div class="overlay">
+                                    <h2>Cake Pops</h2>
+                                    <p>
+                                        <a class="info" href="#" data-toggle="modal" data-target="#modalCakePops">ver
+                                            más</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="my-5">
+
+                <section id="contacto" class="contact-section my-5">
+
+                    <!-- Form with header -->
+                    <div class="card">
+
+                        <!-- Grid row -->
+                        <div class="row">
+
+                            <!-- Grid column -->
+                            <div class="col-lg-8">
+
+                                <form id="contact-form">
+                                    <div class="card-body form">
+
+                                        <!-- Header -->
+                                        <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Contáctanos:</h3>
+
+                                        <!-- Grid row -->
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="name" name="name" class="form-control"
+                                                        placeholder="Nombre">
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="email" id="email" class="form-control"
+                                                        placeholder="E-mail">
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Grid row -->
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="tel" id="phone" class="form-control"
+                                                        placeholder="Teléfono">
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-6">
+                                                <div class="md-form mb-0">
+                                                    <input type="text" id="form-contact-company" class="form-control"
+                                                        placeholder="Compañía">
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+                                        <!-- Grid row -->
+
+                                        <!-- Grid row -->
+                                        <div class="row">
+
+                                            <!-- Grid column -->
+                                            <div class="col-md-12">
+                                                <div class="md-form mb-0">
+                                                    <textarea id="message" class="form-control md-textarea" rows="3"
+                                                        placeholder="Mensaje"></textarea>
+                                                    <a
+                                                        class="btn-floating btn-block text-center btn-lg white-text base-brown">
+                                                        <i class="far fa-paper-plane mr-2"></i>Enviar
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Grid column -->
+
+                                        </div>
+                                        <!-- Grid row -->
+
+                                    </div>
+                                </form>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-lg-4">
+
+                                <div class="card-body contact text-center h-100 white-text base-brown">
+
+                                    <h3 class="my-4 pb-2">Información de Contacto</h3>
+                                    <ul class="text-lg-left list-unstyled ml-4">
+                                        <li>
+                                            <p><i class="fas fa-map-marker-alt pr-2"></i>Bella Vista #123, Santo
+                                                Domingo, DN, REP. DOM</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fas fa-phone pr-2"></i>+ 1 849 553 5555</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fas fa-envelope pr-2"></i>contact@geldys.com</p>
+                                        </li>
+                                    </ul>
+                                    <hr class="hr-light my-4">
+                                    <ul class="list-inline text-center list-unstyled">
+                                        <li class="list-inline-item">
+                                            <a class="p-2 fa-lg tw-ic">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="p-2 fa-lg li-ic">
+                                                <i class="fab fa-linkedin-in"> </i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a class="p-2 fa-lg ins-ic">
+                                                <i class="fab fa-instagram"> </i>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row -->
+
+                    </div>
+                    <!-- Form with header -->
+
+                </section>
+            </div>
+        </main>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4 base-brown">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!-- Social buttons -->
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1">
+                        <i class="fab fa-facebook-f"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1">
+                        <i class="fab fa-twitter"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-gplus mx-1">
+                        <i class="fab fa-google-plus-g"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li mx-1">
+                        <i class="fab fa-linkedin-in"> </i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1">
+                        <i class="fab fa-dribbble"> </i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Social buttons -->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Sergio Reyes & Material Design for Bootstrap 4</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
