@@ -64,8 +64,7 @@ nav ul li a i {
     background-color: #332E2A;
 }
 
-.brown-text
-{
+.brown-text {
     color: #332E2A
 }
 
@@ -73,10 +72,21 @@ nav ul li a i {
     color: #FFEBCD;
 }
 
-.coral-text
-{
+.coral-text {
     color: #F4A460
 }
+
+.black-text
+{
+    color: black;
+}
+
+#navbar a {
+    color: #000;
+    text-decoration: none;
+    color: white;
+}
+
 
 .hovereffect {
     width: 100%;
@@ -216,14 +226,9 @@ body,
     line-height: 26px;
 }
 
-.btn-clear {
-    color: #FFF;
-    background-color: transparent;
-    border-color: #FFF;
-    margin-right: 15px;
-}
 
-.btn-clear:hover {
+
+.btn:hover {
     color: #000;
     background-color: #FFF;
 }

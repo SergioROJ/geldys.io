@@ -43,7 +43,7 @@
 
     <header>
         <!--Navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top base-brown">
+        <nav class="navbar navbar-expand-lg fixed-top base-brown" id="navbar">
 
             <div class="container">
                 <!-- Navbar brand -->
@@ -63,7 +63,7 @@
                     <!-- Links -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link base-white" href="#carousel-home">Home
+                            <a class="nav-link base-white navbar-active" href="#carousel-home">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -77,11 +77,10 @@
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                aria-haspopup="true" aria-expanded="false">Carrito</a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item black-text" href="#">Historial de Compra</a>
+                                <a class="dropdown-item black-text" href="#">Artículos Seleccionados</a>
                             </div>
                         </li>
 
@@ -164,7 +163,7 @@
                                     </li>
                                     <li class="list-inline-item">
                                         <a target="_blank" href="#tienda"
-                                            class="btn btn-unique btn-lg btn-rounded mr-0">Ver nuestros productos</a>
+                                            class="btn btn-unique btn-rounded mr-0">Ver nuestros productos</a>
                                     </li>
                                 </div>
                             </ul>
@@ -1387,6 +1386,15 @@
 
     </footer>
     <!-- Footer -->
+
+    <script>
+        $(function () {
+            $('#navbar a').click(function () {
+                $('#navbar a').css('text-decoration', 'none');
+                $(this).css('text-decoration', 'underline');
+            });
+        });
+    </script>
 
 </body>
 
